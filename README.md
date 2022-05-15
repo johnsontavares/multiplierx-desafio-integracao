@@ -30,4 +30,6 @@ docker run --name demo-postgres -p 5432:5432 -e POSTGRES_PASSWORD=password -d po
 
 <h1>Start service</h1>
 
+<h2>npm install</h2>
+
 <h2>npm run start:debug</h2>
