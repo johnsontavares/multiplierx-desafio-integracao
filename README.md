@@ -22,5 +22,12 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+<h1>Create container docker </h1>
+
+sudo docker run --name myapi -e MYSQL_ROOT_PASSWORD=senha -p 3306:3306 -d mysql
+
+docker run --name demo-postgres -p 5432:5432 -e POSTGRES_PASSWORD=password -d postgres
+
+<h1>Start service</h1>
 
 <h2>npm run start:debug</h2>
