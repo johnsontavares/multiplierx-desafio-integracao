@@ -4,6 +4,7 @@ import { EstoquesService } from '../estoques/estoques.service';
 import { produto } from './produtos.entity';
 import { Produto } from './produtos.interface';
 
+// set routes products
 @Controller('produtos')
 export class ProdutosController {
     constructor(private ProdutosService: ProdutosService,

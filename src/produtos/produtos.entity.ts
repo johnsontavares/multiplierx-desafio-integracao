@@ -2,6 +2,7 @@ import { Table, Column, Model, DataType, ForeignKey, HasOne, } from 'sequelize-t
 import { estoque } from 'src/estoques/estoques.entity';
 import { categoria } from '../categorias/categoria.entity'
 
+//Entity produtos
 @Table
 export class produto extends Model {
 
